@@ -1,0 +1,48 @@
+.home img{
+
+    width: 100%;
+    height: 600px;
+    object-fit: center;
+    object-fit: cover;
+
+}
+
+.home
+{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.home h1
+{
+    color: black;
+    font-size: 30px;
+}
+
+.home a
+{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:600px)
+{
+ .home img   
+{
+    height: 700px;
+} 
+.home h1 
+{
+    font-size: 40px;
+}
+    
+}
+
+.header {
+    background-color: #F5F5F5;
+    color: #040404;
+    height: 90px;
+    font-size: 45px;
+    padding: 20px;
+}
